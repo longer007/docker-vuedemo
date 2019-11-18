@@ -22,6 +22,6 @@ Docker部署vue项目
 
 3. server中负载均衡中backend设置  
 用的时候，加上`http://`，即：http://backend 
-4. 进入容器
+4. 进入容器  
 xx可以是容器的id，也可以是容器的names
     > docker exec -it xx bash
